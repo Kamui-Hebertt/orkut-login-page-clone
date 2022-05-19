@@ -1,0 +1,85 @@
+:root {background-color: #f0c9ea;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.container{
+    width: 80%;
+    height: 70vh;
+    border: 1px solid blue;
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 5%;
+
+    box-shadow: 13px 8px 17px 12px rgba(158,146,146,0.85);
+    -webkit-box-shadow: 13px 8px 17px 12px rgba(158,146,146,0.85);
+    -moz-box-shadow: 13px 8px 17px 12px rgba(158,146,146,0.85);
+
+}
+.fields{ margin: 5% 10%; }
+
+.pink-font{color:#E2298A;}
+#field__title{
+    display: flex;
+    justify-content: center;
+}
+
+#field__title{
+font-size: 18px;
+font-weight: bold;
+color:grey;
+margin-bottom: 5% ;
+margin-top: 20px;
+}
+.fields__textboxs {
+   
+   height: 100px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.fields__textboxs > input{height: 40px;
+border: 1px solid silver;
+border-radius: 10px;
+margin-bottom: 5%;}
+
+.fields__remember {
+    margin-bottom: 20px;
+}
+
+#btnlogin { width: 100%;
+border: none;
+background-color: #E2298A;
+color:#FFFFFF;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 10px;
+cursor:pointer;}
+
+.fields__recovery > a , .field__create > a {
+    text-decoration: none;
+    color:  rgb(44, 44, 44 );
+    cursor: pointer;
+}
+
+.field__create{display: flex;
+justify-content: center;
+font-weight: bold;
+font-size: 16px;
+font-weight: bold;
+}
+.fields__recovery{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+}
+
+.logo{display:flex;
+    justify-content: center;
+    
+
+
+}
+
+.logo > img{height: 250px;}
